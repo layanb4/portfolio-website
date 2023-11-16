@@ -2,3 +2,32 @@
     background-color: pink;
 
 }
+
+/* .buttonstootherpages{ */
+    /* align-items: left;
+    display:flex; */
+    /* display: grid;  */
+    /* grid-template-columns: repeat(5, 1fr); 
+    gap: 0.5px;  */
+    /* length: 50px;*/
+/* } */
+
+/* inspo from nettt */
+.buttonstootherpages {
+    display: flex;
+    justify-content: flex-end;
+    gap: 15px;
+}
+
+.buttonstootherpages a {
+    text-decoration: none; /* Remove underlines from anchor tags */
+}
+
+.buttonstootherpages button {
+    font-size: 25px;
+    border-radius: 10px;
+    padding: 8px 15px;
+}
+    
+
+
