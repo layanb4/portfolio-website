@@ -19,6 +19,7 @@
     gap: 15px;
 }
 
+/* used for button layout and design */
 .buttonstootherpages a {
     text-decoration: none; /* Remove underlines from anchor tags */
 }
