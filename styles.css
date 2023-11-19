@@ -7,15 +7,6 @@ body{
 
 }
 
-/* .buttonstootherpages{ */
-    /* align-items: left;
-    display:flex; */
-    /* display: grid;  */
-    /* grid-template-columns: repeat(5, 1fr); 
-    gap: 0.5px;  */
-    /* length: 50px;*/
-/* } */
-
 /* inspo from nettt */
 .buttonstootherpages {
     display: flex;
@@ -33,6 +24,75 @@ body{
     border-radius: 10px;
     padding: 8px 15px;
 }
+
+.intro {
+    background-color: white;
+    border: 10px solid black;
+    padding: 50px;
+    box-align: left;
+    width: 0%;
+    float: right;
+    width: 50em;
+    height: 135;
+    text-size-adjust: 50px;
+  }
+
+.describepic{
+    background-color: white;
+    width: 250px;
+    border: 10px solid black;
+    padding: 50px;
+    margin: 30px;
     
+  }
+
+#d1{
+    margin: 50px;
+}
+
+article{
+    width: 70;
+    float: right;
+}
+
+nav{
+    height: 70px;
+}
+
+.picblock{
+    display: inline-block;
+    margin: 30px;
+    width: auto;
+
+}
+
+.descriptblock{
+    justify-content: center;
+    display: inline-block;
+}
+.picspacing{
+    margin-right: 10px;
+}
 
 
+/* trying out the grid option */
+.grid-container {
+    display: grid;
+    grid-template-columns: 490px 300px 500px;
+    grid-gap: 10px;
+    /* background-color: #2196F3; */
+    margin: 30px;
+    padding: 10px;
+  }
+  
+  .grid-container > div {
+    background-color: rgba(255, 255, 255, 0.8);
+    border: 10px solid black;
+    text-align: center;
+    padding: 30px;
+    font-size: 20px;
+  }
+  
+  .item1 {
+    grid-row: 1 / 3;
+  }
